@@ -67,6 +67,17 @@ Stile card
 	padding-right: 50px;
 }
 
+#compito{
+	font-size: small;
+	color: rgb(242, 58, 202);
+	background-color: bisque;
+}
+
+#sezione{
+	font-size: small;
+	background-color: azure;
+}
+
 /* stili lista */
 
 .main__list-item {
