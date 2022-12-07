@@ -1,42 +1,128 @@
-*{box-sizing: border-box;
-    padding: 0;
-    margin: 0;}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-    +ul,
-    ol,
-    menu {
-        list-style: none;
-    }
-    
-    a {
-        text-decoration: none;
-        color: currentColor;
-    }
-    
-    html {
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    body {
-        background-color: #eeeeee;
-    }
-    
-    main {
-        padding: 50px 0;
-    }
-    
-    .main-header {
-        background-color: white;
-        padding: 10px 40px;
-        font-size: 36px;
-        font-weight: 700;
-    }
-    
-    .main-header .logo {
-        vertical-align: middle;
-    }
-    
-    .container {
-        max-width: 750px;
-        margin: 0 auto;
-    }
+ul, ol, menu {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #eeeeee;
+}
+
+main {
+	padding: 50px 0;
+}
+
+.main-header {
+	background-color: white;
+	padding: 10px 40px;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.main-header .logo {
+	vertical-align: middle;
+}
+
+.container {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+/************ 
+Stile card
+*************/
+
+.card {
+	background-color: white;
+	border-radius: 7px;
+}
+
+.card__header {
+	border-bottom: 2px solid #eee;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.card__body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.card__header,
+.card__body {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* stili lista */
+
+.main__list-item {
+	margin-bottom: 20px;
+}
+
+.task-category {
+	font-size: 22px;
+}
+
+.sublist__item {
+	margin-bottom: 10px;
+}
+
+.icon {
+	border: 1px solid currentColor;
+	border-radius: 50%;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	line-height: 18px;
+	text-align: center;
+}
+
+.icon.icon-check {
+	color: green;
+}
+
+.icon.icon-cross {
+	color: red;
+}
+
+.tag {
+	font-size: 12px;
+	color: white;
+	padding: 0 8px;
+	border-radius: 8px;
+	line-height: 26px;
+	margin-left: 10px;
+	display: inline-block;
+	background-color: #cccccc;
+}
+
+.bg-blue {
+	background-color: cornflowerblue;
+}
+
+.bg-green {
+	background-color: darkseagreen;
+}
+
+.bg-salmon {
+	background-color: salmon;
+}
+
+.sublist__item > span {
+	vertical-align: middle;
+}
